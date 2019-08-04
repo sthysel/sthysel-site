@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>the daily doomer</title><link href="https://sthysel.github.io/" rel="alternate"></link><link href="https://sthysel.github.io/feeds/all.atom.xml" rel="self"></link><id>https://sthysel.github.io/</id><updated>2019-08-04T18:50:00+08:00</updated><subtitle>observations and rumifications on shit</subtitle><entry><title>Get your pelican on</title><link href="https://sthysel.github.io/pelican.html" rel="alternate"></link><published>2019-08-04T18:50:00+08:00</published><updated>2019-08-04T18:50:00+08:00</updated><author><name>sthysel</name></author><id>tag:sthysel.github.io,2019-08-04:/pelican.html</id><summary type="html">&lt;p&gt;banger intro to pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instal pelican and friends in a virtualenv dedicated to it using
+&lt;a href="https://pipxproject.github.io/pipx/"&gt;pipx&lt;/a&gt; or any other convenient virtual env
+manager.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/usr/bin/bash&lt;/span&gt;
+
+&lt;span class="c1"&gt;# make a new virtualenv with pelican installed&lt;/span&gt;
+pipx install pelican
+&lt;span class="c1"&gt;# install needed tools in the same venv&lt;/span&gt;
+pipx inject pelican markdown typogrify pygments
+&lt;/pre&gt;&lt;/div&gt;</content><category term="python"></category><category term="publishing"></category><category term="static"></category></entry></feed>
