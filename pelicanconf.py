@@ -21,10 +21,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (("behold the whore of babylon's purse", 'http://github.com/sthysel'),
-         ('control is what we crave', 'http://github.com/sthysel-freight'),
+LINKS = (("the whore of babylon's purse", 'http://github.com/sthysel'),
+         ('craving control', 'http://github.com/sthysel-freight'),
          ('carbohydrate carcass desecration', 'http://github.com/sthysel-shop'),
-         ('zsh, lets not talk about this', 'http://github.com/sthysel-zsh'),
+         ('zsh', 'http://github.com/sthysel-zsh'),
          )
 
 # Social widget
